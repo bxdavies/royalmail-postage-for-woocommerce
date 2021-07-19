@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Royal Mail Postage for WooCommerce
-Plugin URI: https://woocommerce.com/
+Plugin URI: https://github.com/bxdavies/royalmail-postage-for-woocommerce
 Description: Adds and Calculates Postage based on Royal Mail
 Version: 1.0.0
-Author: WooThemes
-Author URI: https://woocommerce.com/
+Author: BXDavies
+Author URI: https://github.com/bxdavies
 */
 
 /*
