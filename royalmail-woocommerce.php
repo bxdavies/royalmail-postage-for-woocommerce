@@ -3,7 +3,7 @@
 Plugin Name: Royal Mail Postage for WooCommerce
 Plugin URI: https://github.com/bxdavies/royalmail-postage-for-woocommerce
 Description: Adds and Calculates Postage based on Royal Mail
-Version: 1.0.0
+Version: 1.1.0
 Author: BXDavies
 Author URI: https://github.com/bxdavies
 */
