@@ -20,7 +20,7 @@ function wcslider_all_settings( $settings, $current_section ) {
         // Add Title to the Settings
         $settings_slider[] = array( 
             'name' => __( 'Royal Mail Settings', 'text-domain' ), 
-            'type' => 'title', 'desc' => __( 'The following options are used to configure WC Slider', 'text-domain' ), 
+            'type' => 'title', 'desc' => __( 'The following options are used to configure Royal Mail Postage for WooCommerce', 'text-domain' ), 
             'id' => 'royalmailsettings' 
         );
         
@@ -31,7 +31,7 @@ function wcslider_all_settings( $settings, $current_section ) {
         // Add Large Letter Volume
         $settings_slider[] = array(
             'name'              => __( "Large Letter Volume: ({$dimension_unit})", "text-domain" ),
-            'desc_tip'          => __( 'This will automatically insert your slider into the single product page', 'text-domain' ),
+            'desc_tip'          => __( 'Volume of a Large Letter', 'text-domain' ),
             'id'                => 'RoyalMailLargeLetterVolume',
             'default_value'     => 2206.25,
             'type'              => 'number',
@@ -42,7 +42,7 @@ function wcslider_all_settings( $settings, $current_section ) {
         // Add Small Parcel Volume
         $settings_slider[] = array(
         'name'                  => __( "Small Parcel Volume: ({$dimension_unit})", "text-domain" ),
-        'desc_tip'              => __( 'This will automatically insert your slider into the single product page', 'text-domain' ),
+        'desc_tip'              => __( 'Volume of Small Parcel', 'text-domain' ),
         'id'                    => 'RoyalMailSmallParcelVolume',
         'type'                  => 'number',
         'default_value'         => 25200,
@@ -53,7 +53,7 @@ function wcslider_all_settings( $settings, $current_section ) {
         // Add Small Parcel Volume
         $settings_slider[] = array(
             'name'              => __( "Medium Parcel Volume: ({$dimension_unit})", 'text-domain' ),
-            'desc_tip'          => __( 'This will automatically insert your slider into the single product page', 'text-domain' ),
+            'desc_tip'          => __( 'Volume of Medium Parcel', 'text-domain' ),
             'id'                => 'RoyalMailMediumParcelVolume',
             'type'              => 'number',
             'default_value'     => 129076,
