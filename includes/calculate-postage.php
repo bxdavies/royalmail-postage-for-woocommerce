@@ -1,7 +1,7 @@
 <?php
-$large_letter_volume = get_option('RoyalMaillarge_letter_volume'); 
+$large_letter_volume = get_option('RoyalMailLargeLetterVolume'); 
 $small_parcel_volume  =  get_option('RoyalMailSmallParcelVolume'); 
-$medium_parcel_volume = get_option('RoyalMailmedium_parcel_volume'); 
+$medium_parcel_volume = get_option('RoyalMailMediumParcelVolume'); 
 
 // First Class
 $calculate_first_class_postage = function() use ($large_letter_volume, $small_parcel_volume, $medium_parcel_volume)

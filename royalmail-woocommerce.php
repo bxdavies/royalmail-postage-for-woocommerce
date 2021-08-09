@@ -116,8 +116,8 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
 
     function addRoyalMailPostage( $methods )
     {
-        $methods['RM_FirstClass'] = 'FirstClassPostage';
-        $methods['RM_SecondClass'] = 'SecondClassPostage';
+        $methods['first_class_postage'] = 'FirstClassPostage';
+        $methods['second_class_postage'] = 'SecondClassPostage';
         return $methods;
     }
 }
